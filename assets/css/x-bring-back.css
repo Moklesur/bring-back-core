@@ -1,0 +1,55 @@
+.bringback-text-gradient .elementor-heading-title {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bringback-icon-gradient .elementor-icon i{
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bringback-icon-gradient .elementor-icon i:before{
+  position: initial;
+}
+.bringback-sticky-header.sticky-on {
+    top: 0;
+    width: 100% !important;
+    z-index: 20;
+    position: fixed !important;
+    animation-duration: 0.7s;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    animation-timing-function: ease;
+    transition: 0.3s all ease-in-out;
+    box-shadow: 0 3px 18px rgba(2, 21, 78, 0.09);
+}
+.bringback-button-after .elementor-button {
+    position: relative;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    z-index: 1;
+    -webkit-animation: btnanimation 1s infinite linear;
+    animation: btnanimation 1s infinite linear;
+}
+.bringback-button-after .elementor-button:after {
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #1db374;
+    z-index: -1;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 0;
+}
+.bringback-button-after .elementor-button:hover::after {
+    opacity: 1;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}

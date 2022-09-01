@@ -1,0 +1,46 @@
+/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 06/10/2020 11:15
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Flaticon.woff2") format("woff2"),
+    url("../fonts/Flaticon.woff") format("woff"),
+    url("../fonts/Flaticon.ttf") format("truetype"),
+    url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-size: 20px;
+  font-style: normal;
+  margin-left: 0;
+}
+
+.flaticon-clapperboard:before { content: "\f100"; }
+.flaticon-comment:before { content: "\f101"; }
+.flaticon-wall-clock:before { content: "\f102"; }
+.flaticon-check:before { content: "\f103"; }
+.flaticon-right-arrow-angle:before { content: "\f104"; }
+.flaticon-angle-arrow-pointing-to-right:before { content: "\f105"; }
+.flaticon-left-arrow-angle-big-gross-symbol:before { content: "\f106"; }
+.flaticon-angle-pointing-to-left:before { content: "\f107"; }
+.flaticon-left-quote:before { content: "\f108"; }
+.flaticon-calendar:before { content: "\f109"; }
+.flaticon-wall-clock-1:before { content: "\f10a"; }
+.flaticon-check-box-with-check-sign:before { content: "\f10b"; }
